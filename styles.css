@@ -98,6 +98,10 @@ h1 {
 }
 
 .controls {
+  width: fit-content;
+  max-width: 100%;
+  padding: 4px 6px;
+  background: var(--paper);
   margin: 14px 0 0;
   color: var(--ink);
   font-size: 0.875rem;
