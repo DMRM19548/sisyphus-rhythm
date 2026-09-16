@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="An endless rhythm game about imagining Sisyphus happy." />
+    <title>Sisyphus in Rhythm</title>
+    <link rel="stylesheet" href="./styles.css?v=30" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <canvas id="game" aria-label="Sisyphus rhythm game"></canvas>
+      <div class="game-controls" id="gameControls" role="group" aria-label="Game controls">
+        <button class="sound-button" id="soundButton" type="button" aria-pressed="true" aria-label="Mute sound">
+          MUSIC ON
+        </button>
+        <button class="pause-button" id="pauseButton" type="button" aria-label="Pause game" aria-pressed="false" data-paused="false" title="Pause">
+          <svg class="pause-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3h4v14H4zM12 3h4v14h-4z"/></svg>
+          <svg class="play-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2l13 8-13 8z"/></svg>
+        </button>
+      </div>
+      <section class="start-card" id="startCard" aria-labelledby="gameTitle">
+        <h1 id="gameTitle">IMAGINE<br />SISYPHUS<br />HAPPY</h1>
+        <button id="startButton" type="button">START</button>
+        <p class="controls">TAP <span>/</span> SPACE</p>
+      </section>
+      <p class="sr-only" id="liveScore" aria-live="polite">Score 0</p>
+      <noscript>This game needs JavaScript to run.</noscript>
+    </main>
+    <script src="./step-motion.js?v=25"></script>
+    <script src="./music-player.js?v=29"></script>
+    <script src="./game.js?v=30"></script>
+  </body>
+</html>

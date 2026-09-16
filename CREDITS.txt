@@ -1,0 +1,25 @@
+Music
+Salsa Latin Party Music by Tunetank
+Source: https://pixabay.com/music/comedy-salsa-latin-party-music-349496/
+License: Pixabay Content License
+https://pixabay.com/service/license-summary/
+
+The music is embedded as part of Sisyphus in Rhythm. Whole 16-bar phrases
+from this recording are arranged into variations at the original tempo,
+with two-bar crossfades and rhythm-controlled interactive filtering.
+
+Music retained from earlier versions (not in the current playback)
+"Arroz Con Pollo", "Modern Jazz Samba", "No Frills Cumbia" (faster version),
+"Carnivale Intrigue"
+Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0
+https://creativecommons.org/licenses/by/4.0/
+Licensor's attribution terms: https://incompetech.com/music/royalty-free/licenses/
+Original recordings:
+https://incompetech.com/music/royalty-free/mp3-royaltyfree/Arroz%20Con%20Pollo.mp3
+https://incompetech.com/music/royalty-free/mp3-royaltyfree/Modern%20Jazz%20Samba.mp3
+https://incompetech.com/music/royalty-free/mp3-royaltyfree/CumbiaNoFrillsFaster.mp3
+https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carnivale%20Intrigue.mp3
+Changes: excerpts at original tempo, fixed gain adjustment, loop edits,
+crossfades and interactive frequency filtering controlled by rhythm input.
+No endorsement by the artists is implied.
