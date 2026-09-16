@@ -342,6 +342,15 @@
   }
 
   function ensureAudio() {
+    // iOS 17+: use media playback so the ringer switch does not mute music.
+    // Request it only during START/resume, never during background preloading.
+    try {
+      if (navigator.audioSession) {
+        navigator.audioSession.type = "playback";
+      }
+    } catch (error) {
+      // Unsupported session settings must not prevent normal audio playback.
+    }
     var ready = prepareAudio();
     if (!audio) return ready;
     // Resume is invoked immediately inside the tap/keyboard gesture.
