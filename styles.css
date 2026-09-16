@@ -213,3 +213,16 @@ noscript {
     transition: none;
   }
 }
+
+/* Keep the desktop start screen above the slope in embedded layouts. */
+@media (min-width: 641px) {
+  .start-card {
+    top: 35%;
+  }
+
+  .controls {
+    width: auto;
+    padding: 0;
+    background: transparent;
+  }
+}
